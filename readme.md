@@ -38,3 +38,7 @@ Content-Length: 103
 "msg":"Test content"
 }
 ```
+
+## LIVE
+
+`https://mystifying-mahavira-9a87b3.netlify.app/.netlify/functions/sendEmail`
