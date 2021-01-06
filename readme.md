@@ -24,15 +24,17 @@ It uses `https://mailtrap.io/` as smtp client.
 Required fields - `to`, `subject`, `msg`.
 `to` field must be a valid email address.
 
+```
 POST /sendEmail HTTP/1.1
 Host: localhost
 Content-Type: application/json
 Content-Length: 103
+```
 
 ```
 {
-	"to": "example@example.com",
-  	"subject": "Test subject",
-  	"msg":"Test content"
+"to": "example@example.com",
+"subject": "Test subject",
+"msg":"Test content"
 }
 ```
