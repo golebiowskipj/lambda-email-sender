@@ -11,7 +11,7 @@ async function main(to, subject, msg) {
   });
 
   let info = await transporter.sendMail({
-    from: process.env.EMAIL_FROM,
+    from: "test@test.com",
     to: to,
     subject: subject,
     text: msg,
